@@ -5,13 +5,13 @@ This project studies hospital readmissions among diabetic patients. Hospital rea
 Age, Previous Admissions, number of procedures, number of current medications, diabetes medication, time in hospital
 
 **Timeline**
-Decide which features and data points to use (1 week)
-Clean data of the features (1 week)
-Decide which test to perform/create scripts to perform test (1 week)
-Create model (2 weeks)
-Test model against high percentage of the dataset/adjust to what we need (2 weeks)
-create visuals (1 week)
-tell story (2 weeks)
+- Decide which features and data points to use (1 week)
+- Clean data of the features (1 week)
+- Decide which test to perform/create scripts to perform test (1 week)
+- Create model (2 weeks)
+- Test model against high percentage of the dataset/adjust to what we need (2 weeks)
+- create visuals (1 week)
+- tell story (2 weeks)
 
 **Goals**
 Successfully predict if a patient will return within 30 days depending on a marker/feature
