@@ -4,23 +4,28 @@ This project studies hospital readmissions among diabetic patients. Hospital rea
 
 **Current Interesting Health Markers**
 
-Age, Previous Admissions, number of procedures, number of current medications, diabetes medication, time in hospital
+1. Age
+2. Previous Admissions
+3. Number of procedures
+4. Number of current medications
+5. Diabetes medication, t
+6. Time in hospital
 
 **Timeline**
 - Decide which features and data points to use (1 week)
-- Clean data of the features (1 week)
-- Decide which test to perform/create scripts to perform test (1 week)
-- Create model (2 weeks)
-- Test model against high percentage of the dataset/adjust to what we need (2 weeks)
-- create visuals (1 week)
-- tell story (2 weeks)
+- Data Cleaning and Preproccessing(1 week)
+- Select and Develop Test Scripts (1 week)
+- Create Model (2 weeks)
+- Evaluate and Test Model, Refine (2 weeks)
+- Create Visuals (1 week)
+- Interpret Results and create presentation (2 weeks)
+  Total (11 weeks) (May 1st)
 
 **Goals**
 
-Successfully predict if a patient will return within 30 days depending on a marker/feature
-
-Correctly identify if a patient will be admitted with a 51+ success rate.
-Create a risk profile for a patient based on selected health markers.
+1. Successfully predict if a diabetic patient will be readmitted within 30 days based on clinical or demographic features. 
+2. Identify the 3 most influential predictors of readdmission.
+3. Develop a paitent risk profile of if they will return. (Maybe risk groups)
 
 **Potential Data sources identified**
 
@@ -33,3 +38,7 @@ Possible test dataset -  https://www.kaggle.com/datasets/siddharth0935/hospital-
 **Data collection method explained**
 
 We will obtain the dataset from publicly available sources, primarily Kaggle and the UCI Machine Learning Repository. The data can be directly downloaded as CSV files and imported for preprocessing and analysis.
+
+**Test Plan**
+
+The dataset will be divided into seperate training and testing sections. 50% will train the model and 50% will be used for testing the model.
