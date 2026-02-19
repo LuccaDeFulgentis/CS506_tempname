@@ -8,18 +8,33 @@ This project studies hospital readmissions among diabetic patients. Hospital rea
 2. Previous Admissions
 3. Number of procedures
 4. Number of current medications
-5. Diabetes medication, t
+5. Diabetes medication
 6. Time in hospital
 
 **Timeline**
-- Decide which features and data points to use (1 week)
-- Data Cleaning and Preproccessing(1 week)
-- Select and Develop Test Scripts (1 week)
-- Create Model (2 weeks)
-- Evaluate and Test Model, Refine (2 weeks)
-- Create Visuals (1 week)
-- Interpret Results and create presentation (2 weeks)
-  Total (11 weeks) (May 1st)
+1. Decide which features and data points to use ( Week 1 )
+2. Data Cleaning and Preproccessing( Week 2 )
+    - Remove missing/invalid values
+    - Split dataset into training and testing sets
+3. Select and Develop Initial Model ( Week 3-5 )
+    - Build Basic Model (Unsure as of now)
+    - Decide which tests to impliment
+4. Model Evaluation ( Week 5-7 )
+    - Evaluate model peformance on test data
+    - Adjust model depending on results
+    - Ensure accurate predictions by accuracy
+    - Analyze top characteristics that increase readmission risk
+6. Create Risk Groups ( Week 8 )
+    - Depending on probabilities create low, medium and high risk groups
+7. Create Visulizations and Presentation ( Week 9-11 )
+    - Create presentation findings
+       - Important Predictors
+       - Importance of this data
+       - Risk Groups
+       - ...
+    - Dicussion of importance
+    - Create visual of model  
+
 
 **Goals**
 
